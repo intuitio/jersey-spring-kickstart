@@ -7,7 +7,10 @@ public class Task {
     
     private Long id;
     private String name;
-    
+
+    public Task() {
+    }
+
     public Task(Long id, String name) {
         this.id = id;
         this.name = name;
